@@ -1,0 +1,30 @@
+### tipo: Aplicación NodeJS con MySQL
+### by: @karlosjota
+### date: 29/02/2022
+### source: https://www.youtube.com/watch?v=VxRXlUrV6y0&ab_channel=FaztCode
+### local dir: /home/karlos/proyectos/crud22
+
+### platform: VisualStudioCode
+### Paquetería
+   . express
+   . mysql | Conecta módulo de nodejs a mysql
+   . express-myconnection | Permite usar la conexión a mysql dentro de los middleware de express (insert, delete ..)
+   . morgan |  ayuda a vaer las peticiones que entran al servidor
+   . ejs | motor de plantilla, perimte enviar htmls que son procesados en el servidor a través de lógica de programación
+ 
+ # versions:
+   + ejs@3.1.6
+   + morgan@1.10.0
+   + mysql@2.18.1
+   + express@4.17.2
+   + express-myconnection@1.0.4
+       added 83 packages from 55 contributors and audited 83 packages in 14.264s
+   "devDependencies": 
+    "nodemon": "^2.0.15"
+
+
+
+### NOTAS
+
+   app.set('port', process.env.PORT || 3000);
+      . configura puerto, si existe uno dado por el S.O. lo asignas, en caso de que no exista usa el puerto 3000
