@@ -3,7 +3,7 @@
 ### date: 29/02/2022
 ### source: https://www.youtube.com/watch?v=VxRXlUrV6y0&ab_channel=FaztCode
 ### local dir: /home/karlos/proyectos/crud22
-
+### resources: angularJS
 ### platform: VisualStudioCode
 ### Paquetería
    . express
